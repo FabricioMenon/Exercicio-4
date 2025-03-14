@@ -1,0 +1,7 @@
+entrada = input("Digite uma lista de números inteiros separados por espaço: ")
+
+lista = list(map(int, entrada.split()))
+
+soma = sum(lista)
+
+print(f"A soma dos elementos da lista é: {soma}")
